@@ -11,3 +11,12 @@
 ### Ask route from postman:
 
 - {{base_url}}/api/agent/ask
+
+#### Body example:
+
+```json
+{   
+    "slug": "slug",
+	"question": "busco promociones de la marca Samsung",
+    "promotionTemplateId": "id"
+}
