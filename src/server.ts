@@ -22,7 +22,7 @@ app.use('/api/agent', agentRoutes)
 
 // Iniciar servidor
 app.listen(PORT, async () => {
-  await connectToRedis(); // Conectar a Redis al iniciar el servidor
+  // await connectToRedis(); // Conectar a Redis al iniciar el servidor
   console.log(`Servidor ejecutándose en http://localhost:${PORT}`);
 });
 
